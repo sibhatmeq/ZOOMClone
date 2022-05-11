@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "471318460487",
+    "project_id": "ezoom-23880",
+    "storage_bucket": "ezoom-23880.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471318460487:android:6fe7a7ed4cfdbeb063d962",
+        "android_client_info": {
+          "package_name": "habesha_software.com.ezoom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471318460487-t1v2rn5hhpr46l16il095lus83ms94bs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "habesha_software.com.ezoom",
+            "certificate_hash": "a05ce3af7fe9fe2e375e74ab7d9436eb1ae48ee7"
+          }
+        },
+        {
+          "client_id": "471318460487-3aa4p22atpgdnorij0shc7ng6c8gc63l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwVedN4Ww9Lb9promMOn2dSm6ut7rIoNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471318460487-3aa4p22atpgdnorij0shc7ng6c8gc63l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
