@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import '../widgets/home_meeting_button.dart';
 
 class MeetingScreen extends StatelessWidget {
-   MeetingScreen({Key? key}) : super(key: key);
+     MeetingScreen({Key? key}) : super(key: key);
 
    final JitsiMeetMethods _jitsiMeetMethods = JitsiMeetMethods();
    createNewMeeting()async{
@@ -18,8 +18,9 @@ class MeetingScreen extends StatelessWidget {
      _jitsiMeetMethods.createMeeting(roomName: roomName, isAudioMuted: true, isVideoMuted: true);
    }
    joinMeeting( BuildContext context) {
-     WidgetsBinding.instance?.addPostFrameCallback((_) {
-       Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => VideoCallScreen()));
+      WidgetsBinding.instance?.addPostFrameCallback((_) {
+        Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => VideoCallScreen()));
+
      });
    }
 

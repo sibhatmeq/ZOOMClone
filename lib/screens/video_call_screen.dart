@@ -41,7 +41,12 @@ class _VideoCallScreenState extends State<VideoCallScreen> {
 
    }
   _joinMeeting(){
-   _jitsiMeetMethods.createMeeting(roomName: meetingIdController.text , isAudioMuted: isAudioMuted, isVideoMuted: isVideoMuted)
+   _jitsiMeetMethods.createMeeting(
+       roomName: meetingIdController.text,
+       isAudioMuted: isAudioMuted,
+       isVideoMuted: isVideoMuted,
+       username: nameController.text,
+   );
 
   }
 

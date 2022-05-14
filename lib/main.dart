@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/login':(context)=>const  LoginScreen(),
-        '/home':(context) =>const HomeScreen(),
+        '/home':(context) => const HomeScreen(),
         '/video-call':(context)=>const VideoCallScreen(),
 
 
@@ -39,10 +39,13 @@ class MyApp extends StatelessWidget {
               child: CircularProgressIndicator(),
             );
           }
-          if(snaphot.hasData){
+         else if(snaphot.hasData){
             return const HomeScreen();
           }
-          return const LoginScreen();
+         else {
+            return const LoginScreen();
+          }
+
         },
       ),
     );
